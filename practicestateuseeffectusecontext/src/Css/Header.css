@@ -1,0 +1,27 @@
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Auto for logo, 1fr for the nav-links */
+    align-items: center; /* Vertically centers items */
+    gap: 20px; /* Adds space between the logo and the nav-links */
+    background: #9e9647;
+  }
+  
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: flex-end;
+    list-style: none;
+    gap: 55px;
+    margin: 54px;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    color: White;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the size of the logo */
+  }
+  

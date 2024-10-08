@@ -1,0 +1,7 @@
+npm init -y
+npm i express cors
+npm i nodemon -D
+
+
+npx create-react-app client
+npm i axios
